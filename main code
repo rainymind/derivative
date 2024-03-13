@@ -1,0 +1,14 @@
+from sympy import symbols, diff
+
+# Define variables
+x = symbols('x')
+
+# Define the function
+f = x**2 + 3*x + 2
+
+# Compute the derivative of the function with respect to x
+f_prime = diff(f, x)
+
+# Print the result
+print("The derivative of the function f with respect to x:")
+print(f_prime)
